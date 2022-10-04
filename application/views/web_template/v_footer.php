@@ -1,0 +1,7 @@
+<footer>
+    <a href=”http://www.RentalBuku.com”>RentalBuku</a>
+</footer>
+</div>
+</body>
+
+</html body{ background: #eee; color: #333; font-family: sans-serif; font-size:15px; } #wrapper{ background: #fff; width: 1100px; margin: 20px auto; } #wrapper header{ background: #232323; padding: 20px; } #wrapper header hgroup{ float: left; color: #fff; } #wrapper header nav{ 47 float: right; margin-top: 50px; } #wrapper header nav ul{ padding: 0; margin: 0; } #wrapper header nav ul li{ float: left; list-style: none; } #wrapper header nav ul li a{ padding: 15px; color: #fff; text-decoration: none; } .clear{ clear: both; } footer{ background: #232323; padding: 20px; } footer a{ color: #fff; text-decoration: none; } section{ padding: 20px; }
