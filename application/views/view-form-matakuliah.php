@@ -56,8 +56,8 @@
                         <select name="sks" id="sks">
                             <option value="" <?php echo set_select('sks', 'Pilih SKS', TRUE); ?>Pilih SKS</option>
                             <option value="2" <?php echo set_select('sks', '2'); ?>>2</option>
-                            <option value="3" <?php echo set_select('sks', '2'); ?>>3</option>
-                            <option value="4" <?php echo set_select('sks', '2'); ?>>2</option>
+                            <option value="3" <?php echo set_select('sks', '3'); ?>>3</option>
+                            <option value="4" <?php echo set_select('sks', '4'); ?>>4</option>
                         </select>
                     </td>
                 </tr>

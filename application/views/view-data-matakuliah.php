@@ -33,8 +33,8 @@
                 </td>
             </tr>
             <tr>
-                <td>SKS</td>
-                <td>:</td>
+                <th>SKS</th>
+                <th>:</th>
                 <td>
                     <?= $sks; ?>
                 </td>
