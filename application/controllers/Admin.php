@@ -9,8 +9,13 @@ class Admin extends CI_Controller
         $this->load->model('ModelUser');
         $this->load->model('ModelBuku');
     }
+
     public function index()
     {
+        // echo "<pre>";
+        // print_r($_SESSION);
+        // die();
+
         $data['judul'] = 'Dashboard';
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();
         $data['anggota'] = $this->ModelUser->getUserLimit()->result_array();

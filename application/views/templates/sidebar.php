@@ -13,14 +13,32 @@ justify-content-center" href="index.html">
     <hr class="sidebar-divider">
 
     <!-- Looping Menu-->
-
-    <!-- Heading -->
     <div class="sidebar-heading">
+        Dashboard
+    </div>
+    <li class="nav-item active">
+        <!-- Nav Item - Dashboard -->
+<li class="nav-item">
+        <a class="nav-link pb-0" href="<?=
+                                        base_url('Admin/index'); ?>">
+            <i class="fa fa-fw fa book"></i>
+            <span>Home</span></a>
+    </li>
+    </li>
+    
+    <!-- Heading -->
+    <div class="sidebar-heading mt-3">
         Master Data
     </div>
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
         <!-- Nav Item - Dashboard -->
+        <li class="nav-item">
+            <a class="nav-link pb-0" href="<?=
+                                            base_url('kategori_buku'); ?>">
+                <i class="fa fa-fw fa book"></i>
+                <span>kategori buku</span></a>
+        </li>
     <li class="nav-item">
         <a class="nav-link pb-0" href="<?=
                                         base_url('buku'); ?>">
