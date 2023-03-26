@@ -11,3 +11,13 @@ alert-danger" role="alert">Akses ditolak. Anda belum login!!
         $role_id = $ci->session->userdata('role_id');
     }
 }
+
+if (!function_exists('pre')) {
+    function pre($array = array(), $exit = true)
+    {
+        echo '<pre>';
+        print_r($array);
+        echo '</pre>';
+        if ($exit) exit;
+    }
+}

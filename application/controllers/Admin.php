@@ -5,6 +5,9 @@ class Admin extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+        if (!$this->session->userdata('email')) {
+            redirect('autentifikasi');
+        }
         //cek_login();
         $this->load->model('ModelUser');
         $this->load->model('ModelBuku');
@@ -12,9 +15,7 @@ class Admin extends CI_Controller
 
     public function index()
     {
-        // echo "<pre>";
-        // print_r($_SESSION);
-        // die();
+        // pre($_SESSION);
 
         $data['judul'] = 'Dashboard';
         $data['user'] = $this->ModelUser->cekData(['email' => $this->session->userdata('email')])->row_array();

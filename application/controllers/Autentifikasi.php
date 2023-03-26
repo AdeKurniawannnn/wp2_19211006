@@ -142,4 +142,13 @@ terdaftar!!</div>');
             redirect('autentifikasi');
         }
     }
+
+    public function logout()
+    {
+        // Hapus session login
+        $this->session->unset_userdata('email');
+
+        // Redirect ke halaman login
+        redirect('autentifikasi');
+    }
 }
